@@ -25,8 +25,8 @@ HSTREAMING="$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/$JAR"
 # so that map jobs are more efficiently distributed
 
 $HSTREAMING \
-    -file mapper.py    -mapper mapper.py \
-    -file reducer.py   -reducer reducer.py \
+    -file map.pl    -mapper map.pl \
+    -file reduce.pl   -reducer reduce.pl \
     -input data/bsamples/out* -output binned-output
 
 

@@ -12,7 +12,7 @@ if (mini){
 s <- 5 # 50
 r <- 50 # 100
 
-outpath <- "output"
+outpath <- "out"
 respath <- "final"
 
 if (mini){
